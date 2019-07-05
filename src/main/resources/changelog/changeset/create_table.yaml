@@ -1,0 +1,31 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2
+      author: yuriy
+      changes:
+      - createTable:
+          tableName: FootballTeam
+          columns:
+            - column:
+                name: id
+                type: int
+                autoIncrement: true
+                constraints:
+                  primaryKey: true
+                  nullable: false
+            - column:
+                name: name
+                type: varchar(32)
+                constraints:
+                  nullable: false
+                  unique: true
+            - column:
+                name: trophies
+                type: int (3)
+                constraints:
+                  nullable: true
+            - column:
+                name: country
+                type: varchar(32)
+                constraints:
+                  nullable: false

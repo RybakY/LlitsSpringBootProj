@@ -1,0 +1,12 @@
+databaseChangeLog:
+  - changeSet:
+      id: 3
+      author: yuriy
+      changes:
+      - createTable:
+          tableName: smallFootballTeam
+          columns:
+          - column:
+              name: small
+              type: boolean
+

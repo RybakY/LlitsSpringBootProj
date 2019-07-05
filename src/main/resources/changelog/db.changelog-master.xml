@@ -1,0 +1,12 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+    <!--<include file="/changelog/changeset/add_city_column.xml"/>-->
+    <!--<include file="changelog/changeset/add_foreignkey.xml"/>-->
+    <!--<include file="changelog/changeset/add_user.xml"/>-->
+
+    <!--<include file="/changelog/changeset/add_column.yaml"/>-->
+    <!--<include file="/changelog/changeset/create_table.yaml"/>-->
+</databaseChangeLog>
